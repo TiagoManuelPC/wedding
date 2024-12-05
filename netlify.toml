@@ -1,6 +1,6 @@
 [build]
 base = "wedding-angular"
-  publish = "dist/"
+  publish = "dist/browser"
   command = "ng build"
 
 [[redirects]]
