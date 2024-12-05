@@ -48,19 +48,21 @@ html, body {
     justify-content: center;
     align-items: center;
     background: url('../assets/wedding.png') no-repeat center center;
+    background-size: cover;
   }
   
   .center-button {
-    padding: 10px 20px;
-    font-size: 18px;
-    color: white;
-    background-color: #007bff;
-    border: none;
-    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: green;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    border: 2px solid #fff; /* White border */
+    border-radius: 10px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
   }
   
   .center-button:hover {
-    background-color: #0056b3;
+    background-color: #fff; /* Solid white on hover */
+    color: #007bff; /* Change text color on hover */
   }
